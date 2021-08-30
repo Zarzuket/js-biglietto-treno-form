@@ -23,3 +23,12 @@ body{
     display: flex;
     background-color: white;
 }
+
+.container_stampa{
+    margin-top: 40px;
+    display: none;
+}
+
+.container_stampa.show{
+    display: block;
+}
