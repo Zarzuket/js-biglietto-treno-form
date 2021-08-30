@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Biglietto Treno Form</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>
+                CALCOLA IL PREZZO DEL TUO BIGLIETTO
+            </h1>
+            <div class="container_form">
+                <label for="name">Nome Cognome</label>
+                <input type="text" name="name" id="id" placeholder="Insert your name">
+                <label for="number">KM</label>
+                <input type="number" name="km" id="km" placeholder="Insert Km">
+                <select name="range" id="range">
+                    <option value="maggiorenne">Maggiorenne</option>
+                    <option value="minorenne">Minorenne</option>
+                    <option value="over">Over 65</option>
+                </select>
+            </div>
+            <div class="buttons">
+                <button id="genera">Genera</button>
+                <button id="annulla">Annulla</button>
+            </div>
+            <div class="container_stampa">
+                <div class="nome_biglietto"></div>
+                <div class="offerta"></div>
+                <div class="carrozza"></div>
+                <div class="codice_cp"></div>
+                <div class="costo_biglietto"></div>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
