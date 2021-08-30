@@ -22,6 +22,16 @@ body{
 .container_form{
     display: flex;
     background-color: white;
+    justify-content: space-around;
+}
+.container_input{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons_container{
+    display: flex;
+    justify-content: center;
 }
 
 .container_stampa{
@@ -32,3 +42,4 @@ body{
 .container_stampa.show{
     display: block;
 }
+
